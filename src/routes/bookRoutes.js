@@ -26,6 +26,9 @@ router.post("/", protectRoute, async (req, res) => {
             image: imageUrl,
             user: req.user._id,
         })
+        await newBook.save(); // <- OBAVEZNO
+
+        res.status(201).json({ message: "Book created successfully", book: newBook });
 
     } catch (error) {
         console.log("Error creating book", error);
