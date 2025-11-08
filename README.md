@@ -1,0 +1,5 @@
+BookWorm App – Mobilna aplikacija razvijena u React Nativeu koja korisnicima omogućuje objavljivanje, pregledavanje i čitanje recenzija o knjigama. 
+Korisnici mogu kreirati vlastite profile, pisati recenzije te pratiti aktivnosti drugih korisnika. Backend je izrađen u Node.js i Expressu, 
+s MongoDB bazom podataka i ORM-om Mongoose, što omogućuje učinkovito upravljanje korisnicima, recenzijama i sadržajem. 
+U aplikaciji je implementirano automatsko ažuriranje podataka pomoću Cron zadataka, dok se slike pohranjuju putem Cloudinary servisa. 
+Cijeli sustav je hostan na Render.com, a frontend koristi Zustand za jednostavno upravljanje stanjem aplikacije.
